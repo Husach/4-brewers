@@ -1,0 +1,204 @@
+@font-face { 
+  font-family: 'Blogger Sans'; 
+  src: url('bloggersans_regular_macroman/Blogger_Sans-webfont.eot');
+	src: url('bloggersans_regular_macroman/Blogger_Sans-webfont.eot?iefix') format('eot'),
+	url('bloggersans_regular_macroman/Blogger_Sans-webfont.woff') format('woff'),
+	url('bloggersans_regular_macroman/Blogger_Sans-webfont.ttf') format('truetype'),
+	url('bloggersans_regular_macroman/Blogger_Sans-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} 
+@font-face { 
+  font-family: 'Blogger Sans Italic'; 
+  src: url('bloggersans_regular_macroman/Blogger_Sans-Italic-webfont.eot');
+	src: url('bloggersans_regular_macroman/Blogger_Sans-Italic-webfont.eot?iefix') format('eot'),
+	url('bloggersans_regular_macroman/Blogger_Sans-Italic-webfont.woff') format('woff'),
+	url('bloggersans_regular_macroman/Blogger_Sans-Italic-webfont.ttf') format('truetype'),
+	url('bloggersans_regular_macroman/Blogger_Sans-Italic-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: italic;
+} 
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.wrapper {
+	width: 1020px;
+	margin: 0 auto;
+}
+body {
+	font-family: 'Blogger Sans', Arial, Tahoma, sans-serif;
+	font-size: 16px;
+}
+
+h2, 
+h3, 
+p {
+	font-family: 'Blogger Sans';
+}
+.row__link {
+	margin: 0 auto;
+}
+																											/* HEADER */
+.header {
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 650px;
+}
+.header__top {
+	padding: 35px 0 100px 0 ;
+}
+.text__head__header {
+	font-size: 48px;
+	color: #ffffff;
+	text-align: center;
+	padding-bottom: 185px;
+}
+.col {
+	display: inline-block;
+	vertical-align: top;
+}
+.logo {
+	padding: 0 210px 0 260px;
+}
+.phone {
+	width: 160px;
+}
+.phone__img {
+	float: left;
+	position: relative;
+	top: -10px;
+	left: -5px;
+}
+.callback__link {
+	border-bottom: 1px dashed #ffffff;
+	text-transform: uppercase;
+}
+.callback__link,
+.phone__text {
+	color: #ffffff;
+	font-size: 18px;
+	text-decoration: none;
+}
+.header__bottom {
+	width: 525px;
+}
+.want__button {
+	width: 298px;
+	height: 62px;
+	opacity: 0;
+}
+.want {
+	padding-right: 60px;
+}
+.want__img {
+	position: absolute;
+}
+.want,
+.what {
+	vertical-align: middle;
+}
+.what__link {
+	border-bottom: 1px dashed #ffffff;
+	color: #ffffff;
+	text-decoration: none;
+}
+																											/* MAIN */
+.offer {
+	height: 650px;
+	background-image: url(../img/fon_01.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.block__head {
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 85px;
+	font-size: 48px;
+	text-align: center;
+	color: #2b2b2b;
+}
+.text {
+	line-height: 1.5;
+	padding-bottom: 35px;	
+}
+.actual {
+	height: 650px;
+	background-image: url(../img/fon_02.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.head__actual {
+	color: #ffffff;
+}
+.if {
+	height: 934px;
+	background-image: url(../img/fon_03.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.condition {
+	height: 1016px;
+	background-image: url(../img/fon_04.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.head__condition {
+	color: #ffffff;
+	font-size: 44px;
+	line-height: 1.3;
+}
+.kraft {
+	height: 470px;
+	background: #fffff2;	
+}
+.kraft__img {
+	float: left;
+	padding-top: 70px;
+}
+.kraft__info {
+	padding-left: 340px;
+}
+.kraft__head {
+	font-size: 60px;
+	padding-bottom: 60px;
+	-ms-text-align: left;
+	text-align: left;
+}
+.kraft__text {
+	color: #282828;
+}
+																											/* FOOTER */
+
+.footer {
+	height: 736px;
+	background-image: url(../img/fon_06.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.head__footer {
+	color: #ffffff;
+}
+.row__footer {
+	padding-top: 85px;
+}
+.col__footer:nth-child(2) {
+	padding: 0 155px 0 125px;
+}
+.col__footer:nth-child(3) {
+	padding-right: 125px;
+}
+.owner__text {
+	color: #ffffff;
+	width: 150px;
+	text-align: center;
+}
+.row__footer {
+	margin-bottom: 90px;
+}
+.footer__text {
+	color: #ffffff;
+	text-align: center;
+}
